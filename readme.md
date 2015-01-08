@@ -4,9 +4,10 @@
 1. 그누보드 관리자 폴더에 adm 카피
 2. G5MenuCreator를 상속받은후 메소드 구현
 
-##객채의 생성
+##사용법
 ~~~~
 $g5MenuCreator = new G5MenuBasicCreator( $_REQUEST );
+$g5MenuCreator->getSubMenu();
 ~~~~
 
 ##API
